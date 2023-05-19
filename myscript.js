@@ -219,8 +219,12 @@ function game(cmd) {
 		}
 		gameStatus=0
 	}else{
-		// winningMessageTextElement.innerHTML = ""
-		// winningMessageElement.classList.add('show')
+		let msg = '<p class="start-msg">[Ctrl+] - zoom in <br>';
+		msg += '[Ctrl-] - zoom out<br>';
+		msg += '<span>Press Start to play!<span><br>';
+		msg += '</p>';
+		winningMessageTextElement.innerHTML = msg
+		winningMessageElement.classList.add('show')
 
 	}
 }

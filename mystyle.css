@@ -127,6 +127,17 @@ input {
   text-align: center;
   text-shadow: 1px 1px 2px #6bde1f;
 }
+
+.winning-message .start-msg{
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.winning-message .start-msg span{
+  color:aliceblue;
+  /* opacity: 1; */
+}
+
   
   .winning-message button {
   margin: 0%auto;
