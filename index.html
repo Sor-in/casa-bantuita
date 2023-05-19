@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Casa Bantuita</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mystyle.css?v=1.1">
+	<script src="myscript.js?v=1" defer></script>
+</head>
+
+<body>
+
+	<div class="container-casa">
+
+		<div id="container-header" class="header mb-5 w-100 d-flex align-items-center">
+			<div class="cont-life w-25">
+				<div class="life"></div>
+			</div>
+			<h1 class="title w-50">Casa bantuita!</h1>
+			<div id="score" class="w-25">
+				<p>Score: <span id="myScore"></span></p>
+			</div>
+		</div>
+		<div class="text my-3"></div>
+		<div class="wrapper">
+			<div class="door mx-3 text-center"><input id="1" type="image" src="img/usa_inchisa.png" value="usa1"></div>
+			<div class="door mx-3 text-center"><input id="2" type="image" src="img/usa_inchisa.png" value="usa2"></div>
+			<div class="door mx-3 text-center"><input id="3" type="image" src="img/usa_inchisa.png" value="usa3"></div>
+		</div>
+		<div class="winning-message show" id="winningMessage">
+			<div data-winning-message-text></div>
+			<button id="restartButton">Start</button>
+		</div>
+		<div class="container-footer fixed-bottom">
+			<p class="copyright">Copiright &copy;Sorin & Daniela Madalina Nitu</p>	
+		</div>
+	</div>
+
+</body>
+
+</html>

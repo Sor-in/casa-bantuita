@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+.container-casa { 
+  position: absolute;
+  height:fit-content;
+  width: 98%;
+  height: 95vh;
+  top: 50vh; 
+  left:50vw;
+  transform: translateY(-50%) translateX(-50%);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 3px rgba(107, 222, 31, 0.8);
+  padding: 30px;
+}
+
+.hader{
+align-content: center;
+}
+
+
+
+.cont-life {
+  /* width: 150px; */
+  height: 40px;
+  border: 1px solid #6bde1f;
+  border-radius: 5px;
+}
+
+.life{
+	width: 100%;
+	height: 100%;
+	background-color: #6bde1f;
+	border-top-left-radius: 3.5px;
+	border-bottom-left-radius: 3.5px;
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 2px 3px #6bde1f;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0;
+}
+
+#score {
+  display: block;
+  height: 40px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #28a745;
+  text-align: center;
+  /* padding-top: 1%; */
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  justify-content: center;
+	align-items: center;
+  /* border: 1px solid red; */
+}
+
+#score p {
+  margin: 0;
+}
+
+.text {
+  display: none;
+  width: 85%;
+  height: 100px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px 20px 0 rgba(107, 222, 31, 0.8);
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  /*	border: 3px solid orange;
+*/
+  display: flex;
+  background-image: url("img/brick_wall3.jpg");
+  background-size: cover;
+  box-shadow: inset 3px 0 20px 10px rgba(0, 0, 0, 0.9);
+}
+
+.door {
+  width: 33%;
+  /*	border: 1px solid red;
+*/
+}
+
+img,
+input {
+  width: 150px;
+  height: 300px;
+  background-size: cover;
+  outline: none;
+}
+
+.winning-message {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .9);
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+	flex-direction: column;
+  text-align: center;
+}
+
+.winning-message p {
+  color: red;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px #6bde1f;
+}
+  
+  .winning-message button {
+  margin: 0%auto;
+	font-size: 2rem;
+	background-color: white;
+	border: 1px solid black;
+  border-radius: 8px;
+	padding: .25em .5em;
+	cursor: pointer;
+  box-shadow: 0px 0px 4px 4px #6bde1f;
+  /* box-shadow: inset 0px 0px 6px #6bde1f; */
+  }
+  
+  .winning-message button:hover {
+	background-color: black;
+	color: white;
+	border-color: white;
+  box-shadow: 0px 0px 4px 4px #fd0000;
+  }
+  
+  .winning-message.show {
+	display: flex;
+  opacity: 0.75;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
