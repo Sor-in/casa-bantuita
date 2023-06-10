@@ -17,7 +17,7 @@ const winningMessageTextElement = document.querySelector('[data-winning-message-
 let soundlength = 0
 let soundfile
 var ambientsound
-let ambientSong = './sound/KG3CLEB-scary-8000H-128k-S.mp3'
+let ambientSong = './sound/kg3cleb-scary-8000h-128k-s.mp3.mp3'
 let soundVolume = 0.25
 let playerlevel = 0
 let gameStatus = 0
