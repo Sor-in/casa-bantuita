@@ -168,7 +168,7 @@ function setDoor(rv){
 				life-=10;
 				lifeBar.style.width = life+"%";
 				soundlength=1500
-				soundfile = './sound/Creaking_door_opening_Sound_Effect-1500.mp3';
+				soundfile = './sound/creaking_door_opening_sound_effect-1500.mp3';
 			if (life<=0) {
 				timer=setTimeout(game('end'), 1200);
 				ambientsound.pause();
